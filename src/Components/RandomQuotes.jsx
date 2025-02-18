@@ -2,10 +2,11 @@ import React, { useEffect, useState } from 'react';
 import './RandomQuotes.css';
 
 function RandomQuotes() {
+    debugger
     const [show, setShow] = useState("");
     const [quotes, setQuotes] = useState({ author: "", quote: "" });
     const [loading, setLoading] = useState(false);
-    const apiKey = "9u9vQsV8J7Fo0z-Z9YUPpdWNzAZGSUYnpSOh-9-m62I";
+    const apiKey = "ETfTYKL0-2-OKDtVvzj36NM8tNT8msiqi0Gom4xaP-Y";
     const apiUrl = 'https://api.unsplash.com/photos/random';
     const apiurlQuotes = "https://qapi.vercel.app/api/random";
 
